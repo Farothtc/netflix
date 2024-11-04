@@ -1,11 +1,5 @@
 body{
-    margin: 0;
-    height: 100vh;
-    background-image: url("./assets/lotr/lotr-return-h.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow-x: hidden;
+    margin: 0;    
 }
 
 /* Nav */
@@ -14,7 +8,7 @@ body{
     padding: 20px;    
     position: fixed;
     width: 100%;
-    background: rgba(0, 0, 0, 0.1);    
+    background: rgba(0, 0, 0, 0.05);    
     z-index: 10;
 }
 
@@ -34,4 +28,15 @@ body{
 
 #icon-button{
     font-size: 22px;
+}
+
+/* MovMiddle */
+
+.wrapper-middle{
+    height: 100vh;
+    background-image: url("./assets/lotr/lotr-return-h.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
