@@ -3,3 +3,26 @@ body{
     height: 100vh;
     background-color: black;    
 }
+
+/* Nav */
+
+.navbar{
+    margin: 2vh;
+}
+
+.nav-item{
+    margin-left: 2vh;
+}
+
+.nav-item > a {
+    font-size: 18px;
+}
+
+#netflix-logo-nav{
+    width: 20vh;
+    height: auto;
+}
+
+#icon-button{
+    font-size: 22px;
+}
