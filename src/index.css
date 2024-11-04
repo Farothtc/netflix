@@ -8,7 +8,7 @@ body{
     padding: 20px;    
     position: fixed;
     width: 100%;
-    background: rgba(0, 0, 0, 0.05);    
+    background: rgba(0, 0, 0, 0.4);    
     z-index: 10;
 }
 
@@ -39,4 +39,17 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     overflow-x: hidden;
+}
+
+.wrapper-middle > h2{
+    margin-top: 35vh;
+    margin-left: 7vh;
+    width: 35%;
+    text-align: center;
+    font-family: 'Ringbearer', serif;
+    font-size: 4rem;
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
