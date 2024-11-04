@@ -2,7 +2,7 @@ export function MovMiddle() {
   return (
     <>
       <div className="wrapper-middle">
-        <h2>Hello netflix again</h2>
+        <h2>The Lord of the Rings The Return of The King</h2>
       </div>
     </>
   );
