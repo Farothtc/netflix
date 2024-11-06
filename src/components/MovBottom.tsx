@@ -1,3 +1,5 @@
+import { ColMovies } from "./ColMovies";
+
 export function MovBottom() {
   return (
     <>
