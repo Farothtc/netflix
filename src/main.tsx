@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+import { MovieDetail } from "./components/MovieDetail.tsx";
 
 const router = createBrowserRouter([
   {
@@ -14,10 +15,10 @@ const router = createBrowserRouter([
       </div>
     ),
   },
-  // {
-  //   path: "/:pokemonName",
-  //   element: <PokeStats />,
-  // },
+  {
+    path: "/:movieName",
+    element: <MovieDetail />,
+  },
 ]);
 
 createRoot(document.getElementById("root")!).render(
