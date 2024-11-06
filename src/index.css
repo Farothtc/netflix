@@ -33,7 +33,7 @@ body{
 /* MovMiddle */
 
 .wrapper-middle{
-    height: 100vh;
+    height: 80vh;
     background-image: url("./assets/lotr/lotr-return-h.jpg");
     background-size: cover;
     background-position: center;
@@ -52,4 +52,45 @@ body{
     -webkit-background-clip: text;
     color: transparent;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+#button-wrapper-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vh;
+}
+
+#play-middle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2vh;
+    width: 15vh;
+    height: 6vh;    
+    
+}
+
+#play-middle > i {
+    font-size: 28px;
+    color: black;
+}
+
+#info-middle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2vh;
+    width: 25vh;
+    height: 6vh;
+}
+
+#info-middle > i {
+    font-size: 25px;    
+}
+
+#info-middle > span , #play-middle > span{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
 }
