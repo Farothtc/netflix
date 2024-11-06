@@ -1,23 +1,15 @@
 import { ColMovies } from "./ColMovies";
+import Movies from "../lib/Movies";
 
 export function MovBottom() {
+  const displayedMovies = Movies.map((e, index) => (
+    <ColMovies key={index} e={e} />
+  ));
+
   return (
     <>
       <div className="container-fluid">
-        <div className="row">
-          <div className="col-md-3">
-            <h2>Hello Bottom</h2>
-          </div>
-          <div className="col-md-3">
-            <h2>Hello Bottom</h2>
-          </div>
-          <div className="col-md-3">
-            <h2>Hello Bottom</h2>
-          </div>
-          <div className="col-md-3">
-            <h2>Hello Bottom</h2>
-          </div>
-        </div>
+        <div className="row">{displayedMovies}</div>
       </div>
     </>
   );
