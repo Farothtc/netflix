@@ -13,6 +13,7 @@ export function MovMiddle() {
             <span>More Info</span>
           </button>
         </div>
+        <h3 className="movies-suggest">Movies you might like</h3>
       </div>
     </>
   );
