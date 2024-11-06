@@ -1,5 +1,6 @@
 body{
-    margin: 0;    
+    margin: 0;
+    background-color: black;    
 }
 
 /* Nav */
@@ -33,6 +34,7 @@ body{
 /* MovMiddle */
 
 .wrapper-middle{
+    position: relative;
     height: 80vh;
     background-image: url("./assets/lotr/lotr-return-h.jpg");
     background-size: cover;
@@ -95,11 +97,25 @@ body{
     margin: 0;
 }
 
+.movies-suggest{
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
 /* Col Movies */
 
 #col-movies{
     padding: 0;
-    background-color: black;    
+    background-color: black;
+    overflow: hidden;
+    scale: 1;
+    transition: all 1s ease;    
+}
+
+#col-movies:hover{
+    scale: 0.9;
 }
 
 #col-movies-title{    
