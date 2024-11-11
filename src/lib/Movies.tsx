@@ -21,7 +21,7 @@ const Movies: MoviesData[] = [
     movfont: "'Ancient', serif",
     tcolor: "white",
     description:
-      "A true David vs. Goliath story of how the 14th century Scottish 'Outlaw King' Robert the Bruce used cunning and bravery to defeat the much larger and better equipped occupying English army.",
+      "A true David vs. Goliath story of how the 14th century Scottish 'Outlaw King' Robert the Bruce used cunning and bravery to defeat the much larger and better equipped occupying English army. After being crowned King of Scotland, legendary warrior Robert the Bruce is forced into exile by the English and leads a band of outlaws to help him reclaim the throne.",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const Movies: MoviesData[] = [
     movfont: "'Ethnocentric', serif",
     tcolor: "yellow",
     description:
-      "In a version of 1985 where superheroes exist, the murder of a colleague sends active vigilante Rorschach on the trail of a conspiracy that will change the course of history.",
+      "In an alternate 1985 America, costumed superheroes are part of everyday life. When one of his former comrades is murdered, masked vigilante Rorschach (Jackie Earle Haley) uncovers a plot to kill and discredit all past and present superheroes. As he reconnects with his retired associates, only one of which has true powers, Rorschach glimpses a far-reaching conspiracy involving their shared past and catastrophic consequences for the world's future.",
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ const Movies: MoviesData[] = [
     movfont: "'Western Bang Bang', serif",
     tcolor: "antiquewhite",
     description:
-      "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+      "Businessman Oskar Schindler (Liam Neeson) arrives in Krakow in 1939, ready to make his fortune from World War II, which has just started. After joining the Nazi party primarily for political expediency, he staffs his factory with Jewish workers for similarly pragmatic reasons. When the SS begins exterminating Jews in the Krakow ghetto, Schindler arranges to have his workers protected to keep his factory in operation, but soon realizes that in so doing, he is also saving innocent lives.",
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ const Movies: MoviesData[] = [
     movfont: "'Ancient', serif",
     tcolor: "black",
     description:
-      "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
+      "In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand (Michael Caine), a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper (Matthew McConaughey) and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home.",
   },
 ];
 
