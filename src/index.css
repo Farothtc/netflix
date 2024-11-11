@@ -128,3 +128,19 @@ body{
     font-size: 6vh;
     text-wrap: nowrap;
 }
+
+/* Movie Detail */
+
+#movie-detail-img{
+    height: 80vh;
+}
+
+#movie-detail-buttons{
+    justify-content: space-around;
+    align-items: center;    
+
+}
+
+#movie-detail-buttons > button{
+    width: 200px;
+}
