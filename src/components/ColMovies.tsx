@@ -13,7 +13,19 @@ export function ColMovies({ e }: ColMoviesProps) {
   return (
     <>
       <div className="col-md-3" id="col-movies">
-        <Link to={`/${e.name.toLocaleLowerCase()}`}>
+        <Link
+          to={`/${e.name.toLocaleLowerCase()}`}
+          state={{
+            colMoviesProps: {
+              banner: e.banner,
+              name: e.name,
+              imdb: e.imdb,
+              imdbmax: e.imdbmax,
+              movfont: e.movfont,
+              description: e.description,
+            },
+          }}
+        >
           <div className="card text-bg-dark">
             <img src={e.banner} className="card-img" alt={e.name} />
             <div className="card-img-overlay">
